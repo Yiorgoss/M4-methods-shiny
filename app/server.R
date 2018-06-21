@@ -1,7 +1,7 @@
 server <- function( input, output){
     
-    output$hist <- renderPlot({
-        title <- "title"
-        hist(rnorm(input$num), main=title)
+    output$ddown <- renderPlot({
+        title <- input$meths
+        hist(rnorm(100), main=title)
     })
 }
