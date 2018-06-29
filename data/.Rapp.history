@@ -1,0 +1,4 @@
+load("/Users/squanchyjr/Programming/R/ShinyProj/data/Futures.Rdata")
+load("/Users/squanchyjr/Programming/R/ShinyProj/data/Futures.Rdata")
+View(futures_data)
+head(futures_data)
